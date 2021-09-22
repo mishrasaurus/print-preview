@@ -1,0 +1,36 @@
+{
+  "name": "print-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "NODE_PATH=src start-storybook -p 6006",
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishrasaurus/print-preview.git"
+  },
+  "keywords": [
+    "React",
+    "Typescript",
+    "Javascript"
+  ],
+  "author": "mishrasaurus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishrasaurus/print-preview/issues"
+  },
+  "homepage": "https://github.com/mishrasaurus/print-preview#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/react": "^6.3.8",
+    "babel-loader": "^8.2.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {}
+}
